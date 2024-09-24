@@ -4,7 +4,18 @@ body {
     background-color: #003049;
     font-family: "PT Sans", sans-serif;
 }
+.box {
+    animation: popup 0.4s;
+}
 
+@keyframes popup {
+    0% {
+        transform: scale(0);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
 .text-anima {
     color: #f91c1c;
     animation: row-and-shrink 1.5s;
